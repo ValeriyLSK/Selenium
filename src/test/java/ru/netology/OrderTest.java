@@ -1,3 +1,5 @@
+package ru.netology;
+
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.BeforeEach;
@@ -14,7 +16,7 @@ public class OrderTest {
 
     @BeforeAll
     public static void setUpAll() {
-        System.setProperty("webdriver.chrome.driver", "/driver/windows/chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", "driver/windows/chromedriver.exe");
     }
 
     @BeforeEach
