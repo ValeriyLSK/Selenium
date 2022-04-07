@@ -14,10 +14,7 @@ public class OrderTest {
 
     private WebDriver driver;
 
-    @BeforeAll
-    public static void setUpAll() {
-        System.setProperty("webdriver.chrome.driver", "driver/windows/chromedriver.exe");
-    }
+    
 
     @BeforeEach
     public void setUp() {
