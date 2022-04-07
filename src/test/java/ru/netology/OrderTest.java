@@ -16,7 +16,7 @@ public class OrderTest {
 
     @BeforeAll
     public static void setUpAll() {
-        System.setProperty("webdriver.chrome.driver", "driver/windows/chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", "https://github.com/ValeriyLSK/Selenide/blob/d70ab090a99cbbe378e46980aa3c88865c15379a/driver/windows/chromedriver.exe");
     }
 
     @BeforeEach
